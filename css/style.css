@@ -220,3 +220,15 @@ p { margin: 0 0 1.1em; max-width: 62ch; }
 }
 
 .site-footer { background: var(--olive-950); }
+
+/* Instagram link with icon */
+.ig { display: inline-flex; align-items: center; gap: .5rem; }
+.ig-icon { flex: none; }
+.contact-list dd .ig { font-size: 1.15rem; }
+.contact-list dd .ig:hover { color: var(--accent); }
+
+/* Developer credit */
+.credit { max-width: none; margin: 1rem 0 0; text-align: center; font-size: .88rem; color: var(--muted); }
+.credit strong { color: var(--ink); font-weight: 600; }
+.credit a { margin-left: .5rem; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .25em; }
+.credit a:hover { color: var(--accent); }
